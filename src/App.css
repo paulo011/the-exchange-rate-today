@@ -9,8 +9,8 @@
   padding: 5px;
   background: linear-gradient(180deg, #00838F 0%, #263238 100%);
   background-repeat: no-repeat;
-  border: 2.5px solid #00E5FF;
+  border: 2.5px solid var(--medium-light-color);
   border-radius: 8px;
-  color: #E0F7FA;
+  color: var(--light-color);
 }
 

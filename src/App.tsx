@@ -1,9 +1,13 @@
 import './App.css'
-import {HeaderMain} from './components/header/header'
+import {FooterComponent} from './components/footerComponent/footerComponent'
+import {HeaderComponent} from './components/headerComponent/headerComponent'
 
 function App() {
   return(
-    <HeaderMain name={'The exchange rate today'}/>
+    <>
+      <HeaderComponent name={'The exchange rate today'}/>
+      <FooterComponent name={'created by: Paulo Ortega'}/>
+    </>
   )
 
 }
