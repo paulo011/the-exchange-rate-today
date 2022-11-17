@@ -1,0 +1,16 @@
+#root {
+  width: 18rem;
+  height: 35rem;
+  text-align: center;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  background: linear-gradient(180deg, #00838F 0%, #263238 100%);
+  background-repeat: no-repeat;
+  border: 2.5px solid #00E5FF;
+  border-radius: 8px;
+  color: #E0F7FA;
+}
+

@@ -1,0 +1,14 @@
+.HeaderMainWarp{
+  border-radius: var(--border-radius);
+  background-color: var(--dark-color);
+  box-shadow: var(--shadow-box-color);
+  border: 0.13rem solid var(--medium-light-color);
+  margin-bottom: 1rem;
+}
+
+.HeaderMain{
+  font-size: 1.4em;
+  font-weight: 800;
+  text-align: center;
+  margin: 0.15rem;
+}
