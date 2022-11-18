@@ -1,6 +1,5 @@
 import {ButtonComponent} from '../buttonComponent/buttonComponent';
 import {CardComponent} from '../cardComponent/cardComponent';
-import {TableComponent} from '../tableComponent/tableComponent';
 import './style.css';
 
 export const SectionContentComponent = () => {
