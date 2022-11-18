@@ -3,7 +3,7 @@ import { Props } from '../../types/props';
 
 export const TableComponent = (props: Props) => {
   return (
-    <table className='table-warp'>
+    <table className='table-wrap'>
       <tr className='table-header-row'>
         <th className='table-header'>{'Moeda'}</th>
         <th className='table-header'>{'variação'}</th>

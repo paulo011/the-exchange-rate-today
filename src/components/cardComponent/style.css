@@ -1,0 +1,74 @@
+.card-wrap{
+  color: var(--light-color);
+  background-color: var(--dark-color);
+  width: 8.3rem;
+  height: 6rem;
+  margin: 0.25rem;
+  border-bottom: var(--border-size) var(--medium-light-color);
+  border-left: var(--border-size) var(--medium-light-color);
+  box-shadow: var(--shadow-card-color);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-wrap p {
+  margin: 0;
+}
+
+.card-header{
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.card-header p{
+  margin-bottom: 0.2rem;
+  color: var(--medium-light-color);
+}
+
+.fild-content{
+  height: 5.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-content{
+  width: 5.0rem;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-right: 0.2rem;
+}
+
+.price-title{
+  border-top: var(--border-size) var(--medium-light-color);
+  border-radius: var(--border-radius);
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: var(--medium-dark-color);
+  height: 0.9rem;
+  width: 100%;
+}
+
+.price{
+  width: 3.6rem;
+  font-size: 0.7rem;
+}
+
+.variation{
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: flex;
+  border-bottom: var(--border-size) var(--medium-light-color);
+  border-radius: var(--border-radius);
+}
+
+.percentage{
+  font-size: 0.6rem;
+  color: var(--medium-dark-color);
+}
