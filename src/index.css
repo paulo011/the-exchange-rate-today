@@ -15,5 +15,6 @@ body{
   --medium-light-color: #00E5FF;
   --light-color: #E0F7FA;
   --shadow-box-color:0px 0px 6px 4px rgba(0, 229, 255, 0.25);
-  --border-radius: 0.6rem;
+  --border-radius: 0.4rem;
+  --border-size: 0.13rem solid;
 }

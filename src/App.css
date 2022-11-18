@@ -7,7 +7,7 @@
   align-items: center;
   flex-direction: column;
   padding: 5px;
-  background: linear-gradient(180deg, #00838F 0%, #263238 100%);
+  background: var(--dark-color);
   background-repeat: no-repeat;
   border: 2.5px solid var(--medium-light-color);
   border-radius: 8px;
