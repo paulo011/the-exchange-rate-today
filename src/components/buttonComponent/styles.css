@@ -1,0 +1,15 @@
+.button-component{
+  background-color: var(--medium-dark-color);
+  border: var(--border-size) var(--medium-light-color);
+  box-shadow: var(--shadow-box-color);
+  color: var(--light-color);
+  width: 6rem;
+  height: 2.5rem;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+.button-component:Hover{
+  background-color: var(--dark-color);
+}
