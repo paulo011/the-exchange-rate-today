@@ -1,0 +1,29 @@
+.table-warp{
+  color: var(--light-color);
+  background-color: var(--dark-color);
+  border: var(--border-size) var(--medium-light-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-box-color);
+  width: 17.5rem;
+  font-weight: 300;
+
+}
+
+.table-header-row{
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+.table-header{
+  border-radius: 0.2rem;
+  height: 2.0rem;
+  box-shadow: var(--shadow-box-color);
+}
+
+.table-data{
+  border-bottom: var(--border-size) var(--medium-light-color);
+  box-shadow: var(--shadow-box-color);
+  border-radius: 0.2rem;
+  height: 2.8rem;
+  font-size: 0.8rem;
+}
