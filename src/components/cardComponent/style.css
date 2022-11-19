@@ -36,6 +36,9 @@
 }
 
 .price-content{
+  border-radius: var(--border-radius);
+  border-top: var(--border-size) var(--medium-light-color);
+  border-right: var(--border-size) var(--medium-light-color);
   width: 5.0rem;
   font-size: 0.8rem;
   display: flex;
@@ -43,10 +46,10 @@
   align-items: flex-start;
   justify-content: space-between;
   margin-right: 0.2rem;
+  margin-left: 0.2rem;
 }
 
 .price-title{
-  border-top: var(--border-size) var(--medium-light-color);
   border-radius: var(--border-radius);
   font-size: 0.6rem;
   font-weight: 600;
