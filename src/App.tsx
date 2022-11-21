@@ -4,6 +4,7 @@ import {HeaderComponent} from './components/headerComponent/headerComponent'
 import {SectionContentComponent} from './components/sectionContentComponent/sectionContentComponent'
 
 function App() {
+
   return(
     <>
       <HeaderComponent name={'The exchange rate today'}/>
