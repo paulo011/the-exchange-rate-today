@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react';
-import {getQuote} from '../../domain/getQuote';
+import {getQuote} from '../../useCase/getQuote';
 import {Currency} from '../../types/currency';
 import {ButtonComponent} from '../buttonComponent/buttonComponent';
 import {CardComponent} from '../cardComponent/cardComponent';
