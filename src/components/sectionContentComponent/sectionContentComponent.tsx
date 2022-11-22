@@ -1,23 +1,23 @@
 import {useEffect, useState} from 'react';
-import {getQuote} from '../../useCase/getQuote';
 import {Currency} from '../../types/currency';
 import {ButtonComponent} from '../buttonComponent/buttonComponent';
 import {CardComponent} from '../cardComponent/cardComponent';
 import './style.css';
+import {quotationController} from '../../controllers/quotationController';
 
 export const SectionContentComponent = () => {
   let [currency, setCurrency] = useState<Currency[]>([]);
 
   useEffect(()=>{
-    getQuote().then((element)=> setCurrency(element))
-  }),[]
+    quotationController().then((element)=> setCurrency(element))
+  }),[currency]
 
   return(
     <section className='section-content-component'>
       <div className='content'>
         <>
-          {currency.map(element => {
-            return <CardComponent key={element.name} name={element.name} bid={element.bid} ask={element.ask} pctChange={element.pct}  />
+         {currency.map(element => {
+          return <CardComponent key={element.name} name={element.name} bid={element.bid} ask={element.ask} pctChange={element.pct}  />
           })}
         </>
      </div>

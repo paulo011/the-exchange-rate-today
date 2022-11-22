@@ -1,24 +1,15 @@
-import {getExchange} from "../subscribers/getExchange";
-import {Currency} from "../types/currency";
-import {convertCurrencyList} from "./convertCurrencyList";
-import { formatName } from "../utils/formatName";
+import { Currency } from "../types/currency";
 
-const currencyCode = ['USD-BRL','EUR-BRL','GBP-BRL','CAD-BRL','JPY-BRL','CNY-BRL'];
-let nameList = convertCurrencyList(currencyCode);
-let quotations = getExchange(currencyCode);
-
-export const getQuote = async () => {
+export const getQuote = async (nameList: string[], quotations: any, formatName: any) => {
   let currencyList: Currency[] = [];
   nameList.map(element => {
-    quotations.then(data => {
-      let currency: Currency = {
-        name: formatName(data[element].name),
-        bid: data[element].bid,
-        ask: data[element].ask,
-        pct: data[element].pctChange,
+     let currency: Currency = {
+        name: formatName(quotations[element].name),
+        bid: quotations[element].bid,
+        ask: quotations[element].ask,
+        pct: quotations[element].pctChange,
       };
       currencyList.push(currency);
-    });
   });
   return currencyList;
 };
