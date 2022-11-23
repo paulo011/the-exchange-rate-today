@@ -3,5 +3,5 @@ export type Props = {
   value?: number,
   bid?:string,
   ask?: string,
-  pctChange?: string,
+  pctChange?: number,
 };

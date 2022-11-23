@@ -64,11 +64,22 @@
 }
 
 .variation{
-  font-size: 0.9rem;
-  font-weight: 600;
   display: flex;
+  align-items: center;
+  justify-content: center;
   border-bottom: var(--border-size) var(--medium-light-color);
   border-radius: var(--border-radius);
+  min-width: 2.60rem;
+}
+
+.percentage-negative{
+  font-size: 0.9rem;
+  color: red;
+}
+
+.percentage-positive{
+  font-size: 0.9rem;
+  color: var(--light-color);
 }
 
 .percentage{

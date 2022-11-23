@@ -2,6 +2,8 @@ import './style.css';
 import { Props } from '../../types/props';
 
 export const CardComponent = (props: Props) => {
+  let percentageValue: string;
+  props.pctChange < 0 ? percentageValue = 'percentage-negative' : percentageValue = 'percentage-positive';
   return (
     <div className='card-wrap'>
       <div className='card-header'>
@@ -14,8 +16,8 @@ export const CardComponent = (props: Props) => {
           <p className='price-title'>Sell</p>
           <p className='price'>R$:{props.ask}</p>
         </div>
-        <div className='variation'>
-          <p>{props.pctChange}</p>
+        <div className={'variation ' + percentageValue}>
+          <p className='percentage-value'>{props.pctChange} </p>
           <p className='percentage'>%</p>
         </div>
       </div>
