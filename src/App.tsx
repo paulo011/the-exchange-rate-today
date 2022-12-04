@@ -9,7 +9,7 @@ function App() {
     <>
       <HeaderComponent name={'The exchange rate today'}/>
       <SectionContentComponent/>
-      <FooterComponent name={'created by: Paulo Ortega'}/>
+      <FooterComponent name={'Created by: Paulo Ortega'}/>
     </>
   )
 

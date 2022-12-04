@@ -1,0 +1,11 @@
+.wrap-checkbox{
+  height: 19rem;
+  padding: 5px;
+  background-color:var(--medium-dark-color);
+  color: var(--light-color);
+  border:var(--border-size) var(--medium-light-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-box-color);
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -3,7 +3,11 @@ import { Props } from '../../types/props';
 
 export const CardComponent = (props: Props) => {
   let percentageValue: string;
-  props.pctChange < 0 ? percentageValue = 'percentage-negative' : percentageValue = 'percentage-positive';
+
+  props.pctChange < 0 
+    ? percentageValue = 'percentage-negative' 
+    : percentageValue = 'percentage-positive';
+
   return (
     <div className='card-wrap'>
       <div className='card-header'>
@@ -23,4 +27,4 @@ export const CardComponent = (props: Props) => {
       </div>
    </div>
  )
-}
+};

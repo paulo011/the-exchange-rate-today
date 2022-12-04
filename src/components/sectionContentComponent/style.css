@@ -16,3 +16,48 @@
 .fild-text-section{
   font-size: 0.8rem;
 }
+
+.button-component{
+
+  border: var(--border-size) var(--medium-light-color);
+  box-shadow: var(--shadow-box-color);
+  color: var(--light-color);
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  transition: 0.4s;
+}
+.button-main{
+  background-color: var(--medium-dark-color);
+  width: 6rem;
+  height: 2.5rem;
+}
+
+.button-select{
+  background-color: var(--dark-color);
+  width: 5rem;
+  height: 2rem;
+}
+
+.button-main:Hover{
+  background-color: var(--dark-color);
+}
+
+.button-select:Hover{
+  background-color: var(--medium-dark-color);
+}
+
+.wrap-checkbox{
+  height: 19rem;
+  padding: 5px;
+  background-color:var(--medium-dark-color);
+  color: var(--light-color);
+  border:var(--border-size) var(--medium-light-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-box-color);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
